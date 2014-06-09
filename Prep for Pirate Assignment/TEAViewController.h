@@ -10,4 +10,6 @@
 
 @interface TEAViewController : UIViewController
 
+@property(nonatomic) CGPoint currentPoint;
+
 @end
