@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TEAAwesomeClass.h"
 
 @interface TEAViewController : UIViewController
 
 @property(nonatomic) CGPoint currentPoint;
+@property (strong, nonatomic) IBOutlet UIButton *myButton;
+
+@property(strong, nonatomic) TEAAwesomeClass *awesomeClass;
 
 @end

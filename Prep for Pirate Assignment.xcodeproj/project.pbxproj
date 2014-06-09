@@ -21,6 +21,7 @@
 		C7AB458D1945373A00EF586F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AB456F1945373A00EF586F /* UIKit.framework */; };
 		C7AB45951945373A00EF586F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7AB45931945373A00EF586F /* InfoPlist.strings */; };
 		C7AB45971945373A00EF586F /* Prep_for_Pirate_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AB45961945373A00EF586F /* Prep_for_Pirate_AssignmentTests.m */; };
+		C7AB45A219453C9600EF586F /* TEAAwesomeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AB45A119453C9600EF586F /* TEAAwesomeClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C7AB45921945373A00EF586F /* Prep for Pirate AssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prep for Pirate AssignmentTests-Info.plist"; sourceTree = "<group>"; };
 		C7AB45941945373A00EF586F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7AB45961945373A00EF586F /* Prep_for_Pirate_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prep_for_Pirate_AssignmentTests.m; sourceTree = "<group>"; };
+		C7AB45A019453C9600EF586F /* TEAAwesomeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEAAwesomeClass.h; sourceTree = "<group>"; };
+		C7AB45A119453C9600EF586F /* TEAAwesomeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEAAwesomeClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				C7AB457D1945373A00EF586F /* Main.storyboard */,
 				C7AB45801945373A00EF586F /* TEAViewController.h */,
 				C7AB45811945373A00EF586F /* TEAViewController.m */,
+				C7AB45A019453C9600EF586F /* TEAAwesomeClass.h */,
+				C7AB45A119453C9600EF586F /* TEAAwesomeClass.m */,
 				C7AB45831945373A00EF586F /* Images.xcassets */,
 				C7AB45721945373A00EF586F /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7AB45821945373A00EF586F /* TEAViewController.m in Sources */,
+				C7AB45A219453C9600EF586F /* TEAAwesomeClass.m in Sources */,
 				C7AB45781945373A00EF586F /* main.m in Sources */,
 				C7AB457C1945373A00EF586F /* TEAAppDelegate.m in Sources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "TEAViewController.h"
+#import "TEAAwesomeclass.h"
 
 @interface TEAViewController ()
 
@@ -40,6 +41,25 @@
 		if (y == 20) {
 			NSLog(@"Both are true.");
 		}
+	}
+	
+	[self.myButton setTitle:@"Button Pressed" forState:UIControlStateNormal];
+	
+	self.myButton.hidden=NO;
+	
+	UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Alert!"
+														 message:@"You triggered the alert"
+														 delegate:nil
+											   cancelButtonTitle:@"Cancel"
+											   otherButtonTitles: nil];
+	[alertView show];
+	
+	self.awesomeClass = [[TEAAwesomeClass alloc] init];
+	
+	NSString *testString = @"has a value";
+	
+	if (testString != nil) {
+		NSLog(@"the test string has a value");
 	}
 }
 
